@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Aurora Launcher",
+    "slug": "aurora-launcher",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#090A0F"
+    },
+    "android": {
+      "package": "com.aurora.launcher",
+      "permissions": [
+        "android.permission.QUERY_ALL_PACKAGES",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}
