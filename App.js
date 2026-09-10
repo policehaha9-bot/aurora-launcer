@@ -1,0 +1,22 @@
+    paddingVertical: 9,
+    paddingHorizontal: 16,
+  },
+  restartPillText: { color: COLORS.textSecondary, fontSize: 12.5 },
+
+  modalOverlay: { flex: 1, backgroundColor: 'rgba(8,9,20,0.7)', alignItems: 'center', justifyContent: 'center', paddingHorizontal: 28 },
+  modalCard: {
+    width: '100%',
+    backgroundColor: COLORS.surfaceElevated,
+    borderRadius: 22,
+    borderWidth: 1,
+    borderColor: COLORS.border,
+    padding: 22,
+  },
+  modalTitle: { color: COLORS.textPrimary, fontSize: 17, fontWeight: '700', marginBottom: 10 },
+  modalBody: { color: COLORS.textSecondary, fontSize: 14.5, lineHeight: 21, minHeight: 62 },
+  modalActions: { flexDirection: 'row', justifyContent: 'flex-end', gap: 12, marginTop: 18 },
+  cancelBtn: { paddingVertical: 10, paddingHorizontal: 18, borderRadius: 14, backgroundColor: COLORS.surface },
+  cancelBtnText: { color: COLORS.textSecondary, fontSize: 14, fontWeight: '600' },
+  confirmBtn: { paddingVertical: 10, paddingHorizontal: 18, borderRadius: 14, backgroundColor: COLORS.coral },
+  confirmBtnText: { color: '#2A0E0B', fontSize: 14, fontWeight: '700' },
+});
